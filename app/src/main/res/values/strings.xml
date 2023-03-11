@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProductivityAssistant</string>
+    <string name="notes">Simple Notepad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="DeleteNote">Are you Sure?</string>
+    <string name="Quote1">Hang in there! You are almost there! You can do it!</string>
+    <string name="Quote2">Keep looking up. That is the secret of life</string>
+    <string name="Quote3">Positivity always wins. ALWAYS.</string>
+    <string name="Quote4">Stay positive. Better days are coming.</string>
+    <string name="Quote5">Be the best version of you.</string>
+    <string name="Quote6">Positive thoughts breeds positive results.</string>
+    <string name="Quote7">Only in the darkness can you see the stars.</string>
+    <string name="Quote8">Yesterday is History. Tomorrow is a Mystery. Today is a gift. That is why we call it the present.</string>
+    <string name="Quote9">Think big. Trust yourself and make it happen.</string>
+    <string name="Quote10">When things go wrong, do not go with them.</string>
+</resources>

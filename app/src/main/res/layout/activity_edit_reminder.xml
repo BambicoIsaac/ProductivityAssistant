@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.productivityassistant.EditReminder">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#048bfe"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="3dp"
+            android:text="Save"
+            android:textColor="#ffffff"/>
+
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#048bfe"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="3dp"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left" />
+    </ScrollView>
+</RelativeLayout>

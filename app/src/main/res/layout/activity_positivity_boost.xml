@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PositivityBoost"
+    >
+
+
+    <TextView
+        android:id="@+id/PositivityQuote"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:text="The quote will be displayed here."
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#048bfe"
+        android:layout_above="@+id/PositivityButton"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/PositivityButton"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="#048bfe"
+        android:text="CHEER ME UP!"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+
+        />
+
+</RelativeLayout>
